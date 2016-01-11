@@ -21,7 +21,7 @@ class Task1Spec extends FunSpec with Matchers {
 
     ignore("working with String matchers") {
       "some text" should be("some_text")
-      "some text" should contain("omee")
+      "some text" should include("omee")
       "some text" should startWith("ome")
     }
 

@@ -36,7 +36,7 @@ class Task3Spec extends FunSpec with Matchers {
         case _ => Failure
       }
 
-      result should be theSameInstanceAs Success
+      result should not be Failure
     }
 
     /**
