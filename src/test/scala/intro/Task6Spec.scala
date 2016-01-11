@@ -24,4 +24,21 @@ package intro
   */
 class Task6Spec {
 
+  /**
+    * Create a tree with the following structure:
+    *
+    * {@code
+    * '        60
+    *        /  \
+    *      40   80
+    *     /  \
+    *   35   50
+    *  /
+    * 20
+    *}
+    * Task 6.1: Create the node and verify the structure with a toString method
+    * Task 6.2: Only go left in the tree and verify that you get the value 20.
+    * Task 6.3: Do not fail if we don't have any values
+    */
+
 }
